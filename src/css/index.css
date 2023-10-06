@@ -1,0 +1,24 @@
+#content {
+  text-align: center;
+}
+.product-cont {
+  margin: 16px;
+  padding: 16px;
+  border-radius: 16px;
+  background-color: var(--clr21);
+  cursor: pointer;
+}
+.product-cont img {
+  width: 80%;
+  margin: 8px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px var(--clr11);
+}
+.product-cont p {
+  color: var(--22);
+  font-size: 32px;
+}
+.product-cont:hover p {
+  color: var(--12);
+  font-weight: 500;
+}
