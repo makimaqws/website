@@ -17,10 +17,14 @@ window.db = getDatabase(app);
 set(ref(db, "products"), {
   salt: {
     id: 0,
-    cost: 10, 
+    cost: 20,
   },
   bread: {
     id: 1,
-    cost: 23, 
+    cost: 32,
+  },
+  butter: {
+    id: 2,
+    cost: 50,
   },
 });
